@@ -30,26 +30,19 @@ pnpm install
 Note: by default, the `owl-cli` looks at `.env.development` for environment variables if it exists.
 
 ### Project setup
-Create a folder under `projects`, say `my-project`:
 
-```bash
-mkdir projects/my-project
-```
-
-Create your `traits.ts` and `collections.ts` files in that folder.
-
-## Compiling projects
+## Compiling project
 Run the `build` script to compile TypeScript files in the `projects` foldfer into JavaScript files.
 
 ```bash
-pnpm run build
+npm run build
 ```
 
-### Run Ganache or configure the network you want to use
+## Run Ganache or configure the network you want to use
 
 Running Ganache locally is easy:
 ```bash
-pnpm i -g ganache
+npm i -g ganache
 ganache --wallet.mnemonic '<MY MNEMONIC>'
 ```
 
@@ -57,12 +50,13 @@ This must match the `HD_WALLET_MNEMONIC` in the `.env.development` file.
 
 ## Generating a collection JSON Schema
 ```bash
-owl-cli generateJsonSchema collections.js --projectFolder=projects/<my-project>
+owl-cli generateJsonSchema collections.js --projectFolder=projects/example-omo
+owl-cli generateRandomNFT projects/example-omo/collections.js 5 --project= projects/example-omo 
+owl-cli deployTopDown --projectFolder=projects/example-omo  --deployCommon=true --debug=true
+owl-cli viewTopDown --root={root_contract_addr_from_console_here} --tokenId=3 --debug
 ```
-
-## Continue with our docs at: 
-
-[https://docs.owlprotocol.xyz/contracts](https://docs.owlprotocol.xyz/contracts)
-
+## To view the NFT Image
+curl -s tokenURI 
+open imageURL
 
 # AI-Outfitters
