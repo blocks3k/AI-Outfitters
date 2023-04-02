@@ -3,7 +3,7 @@
     "tokenSymbol": "ExampleOmoNFT",
     "tokenIdStart": 1,
     "cfg": {
-      "jsonSchemaIpfs": "QmRNrcuGtaqefB72NHuGdDtvzEZjNvX6m2E1AgBXW65EKq",
+      "jsonSchemaIpfs": "QmVWUvQJju6cdk5mZ9rBDAn2ZPPvQFnEKS4r9Z8cZwtTQy",
       "jsonSchemaEndpoint": "https://leovigna.mypinata.cloud/ipfs",
       "sdkApiEndpoint": "https://metadata.owlprotocol.xyz/metadata/getMetadata"
     }
@@ -12,7 +12,13 @@
     "Hats": {
       "tokenIdStart": 1,
       "cfg": {
-        "jsonSchemaIpfs": "QmcYC3fcqxU2gqS7VWEeC7jLDjpFQunMXmfkijXq325RHf"
+        "jsonSchemaIpfs": "Qmc7HQPpCVYgto57m6fvRdUeVhEXHjNJLdUH3rQxDqty73"
+      }
+    },
+    "Glass":{
+      "tokenIdStart": 1,
+      "cfg": {
+        "jsonSchemaIpfs": "QmYfNqitet9qz9VsQzsvySzwW8QbKbF6UyAJZ5nhhJ4RwK"
       }
     }
   }

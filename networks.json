@@ -46,7 +46,7 @@
         "httpHeaders": {},
         "timeout": 20000,
         "chainId": 80001,
-        "url": "https://polygon-mumbai.infura.io/v3/<infura_key>",
+        "url": "https://polygon-mumbai.g.alchemy.com/v2/Fe6TKBkUSn2qsq4NIpsDw9zbC6OCXAq3",
         "from": "0x5b3208286264f409e1873e3709d3138acf47f6cc733e74a6b47a040b50472fd8"
       }
     }

@@ -13,10 +13,6 @@ export const traitImageBg: NFTGenerativeTraitImage = {
     image_type: 'png',
     options: [
         {
-            value: 'None',
-            image_url: 'ipfs://QmeYhQsx2PGeKoCco8Ck4gUcoSNN7ecShKcZaXDsHardQL',
-        },
-        {
             value: 'Dunes',
             image_url: 'ipfs://QmfSABDaq7V2WKrdTnK3ofnnbucax4e5jBcztXqL34zsrL/bg-dunes.png',
         },
@@ -25,7 +21,7 @@ export const traitImageBg: NFTGenerativeTraitImage = {
             image_url: 'ipfs://QmfSABDaq7V2WKrdTnK3ofnnbucax4e5jBcztXqL34zsrL/bg-downtown.png',
         },
     ],
-    probabilities: [1, 5, 5],
+    probabilities: [ 5, 5],
 };
 
 export const traitImageBody: NFTGenerativeTraitImage = {
@@ -35,15 +31,35 @@ export const traitImageBody: NFTGenerativeTraitImage = {
     options: [
         {
             value: 'Common',
-            image_url: 'ipfs://QmfSABDaq7V2WKrdTnK3ofnnbucax4e5jBcztXqL34zsrL/body-base.png',
+            image_url: 'ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/body-base.png',
         },
         {
             value: 'Albino',
-            image_url: 'ipfs://QmfSABDaq7V2WKrdTnK3ofnnbucax4e5jBcztXqL34zsrL/body-albino.png',
+            image_url: 'ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/body-base.png',
         },
     ],
     probabilities: [2, 8],
 };
+
+
+export const traitImageGlass: NFTGenerativeTraitImage = {
+    name: 'Glass',
+    type: 'image',
+    image_type: 'png',
+    options: [
+        {
+            value: 'gucci',
+            image_url: 'ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/body-glass.png',
+        },
+        {
+            value: 'prada',
+            image_url: 'ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/body-glass2.png',
+        },
+    ],
+    probabilities: [5, 5],
+};
+
+
 
 export const traitImageHats: NFTGenerativeTraitImage = {
     name: 'Hats',
@@ -52,20 +68,12 @@ export const traitImageHats: NFTGenerativeTraitImage = {
     options: [
         {
             value: 'Cap',
-            image_url: 'ipfs://QmfSABDaq7V2WKrdTnK3ofnnbucax4e5jBcztXqL34zsrL/hats-cap.png',
+            image_url: 'ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/hats-beanie.png',
         },
         {
             value: 'Beanie',
-            image_url: 'ipfs://QmfSABDaq7V2WKrdTnK3ofnnbucax4e5jBcztXqL34zsrL/hats-beanie.png',
-        },
-        {
-            value: 'Beret',
-            image_url: 'ipfs://QmfSABDaq7V2WKrdTnK3ofnnbucax4e5jBcztXqL34zsrL/hats-beret.png',
-        },
-        {
-            value: 'Cowboy',
-            image_url: 'ipfs://QmfSABDaq7V2WKrdTnK3ofnnbucax4e5jBcztXqL34zsrL/hats-cowboy.png',
+            image_url: 'ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/hats-cap.png',
         },
     ],
-    probabilities: [40, 30, 20, 10],
+    probabilities: [50, 50],
 };

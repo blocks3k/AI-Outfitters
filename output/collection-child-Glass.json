@@ -1,22 +1,22 @@
 {
-  "name": "Tutorial Example - NFT Hats Sub-Collection",
+  "name": "Tutorial Example - NFT Glass Sub-Collection",
   "description": "Example from https://docs.owlprotocol.xyz/contracts/tutorials/nft-image-layers",
   "external_url": "https://docs.owlprotocol.xyz/contracts/tutorials/nft-image-layers",
   "seller_fee_basis_points": 5000,
   "fee_recipient": "0xc2A3cB7d4BF24e456051E3a710057ac61f5dB133",
   "generatedImageType": "png",
   "traits": {
-    "Hats": {
-      "name": "Hats",
+    "Glass": {
+      "name": "Glass",
       "type": "image",
       "options": [
         {
-          "value": "Cap",
-          "image_url": "ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/hats-beanie.png"
+          "value": "gucci",
+          "image_url": "ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/body-glass.png"
         },
         {
-          "value": "Beanie",
-          "image_url": "ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/hats-cap.png"
+          "value": "prada",
+          "image_url": "ipfs://QmPwdFi3y79iDtG59CE1kEB395KemBe2xBZu1uVs7Xphvr/body-glass2.png"
         }
       ],
       "image_type": "png",
