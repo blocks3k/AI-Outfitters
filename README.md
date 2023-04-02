@@ -1,13 +1,9 @@
-# Owl Protocol Starter CLI
-A starter repository to deploy NFT collection using Owl Protocol's [CLI](https://github.com/owlprotocol/owlprotocol/tree/main/packages/cli)
+# AI Outfitters
 
-See our [docs](http://localhost:3000/contracts/getting-started/cli) on how to get started with our CLI
-
-## Getting started
 
 ### Requirements
 * Node.js v16 or v18
-* PNPM (NPM is fine too)
+* NPM 
 * Owl Protocol CLI
 
 ### Install
