@@ -65,3 +65,4 @@ owl-cli generateJsonSchema collections.js --projectFolder=projects/<my-project>
 [https://docs.owlprotocol.xyz/contracts](https://docs.owlprotocol.xyz/contracts)
 
 
+# AI-Outfitters
