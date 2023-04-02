@@ -13,12 +13,12 @@ See our [docs](http://localhost:3000/contracts/getting-started/cli) on how to ge
 ### Install
 * Install the CLI if you haven't already:
 ```bash
-pnpm install -g @owlprotocol/nft-sdk-cli
+npm install -g @owlprotocol/nft-sdk-cli
 ```
 
 * Install node modules:
 ```bash
-pnpm install
+npm install
 ```
 
 ### Environment variables
